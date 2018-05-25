@@ -1,0 +1,9 @@
+server:
+  port: ${service-port}
+zuul:
+  routes:
+    development:
+      path: "/development/**"
+      url: http://www.baidu.com
+
+
